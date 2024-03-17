@@ -1,4 +1,4 @@
-# Matlab-exercises-Image-processing
+# Matlab basics and image processing
 
 Reference document: https://webspace.ulbsibiu.ro/catalina.neghina/Resurse/carti/carte_Matlab.pdf 
 
