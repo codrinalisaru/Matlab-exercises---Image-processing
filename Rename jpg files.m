@@ -9,8 +9,8 @@ len_fisier = length(fisier);
 if (~folder(index).isdir()) &&...
 strcmpi(fisier(len_fisier-3:len_fisier),'.jpg')
 k = k+1;
-nume_vechi = [path,'\',fisier];
-nume_nou = [path,'\',num2str(k),'.jpg'];
-movefile(nume_vechi,nume_nou);
+old_name = [path,'\',fisier];
+new_name = [path,'\',num2str(k),'.jpg'];
+movefile(old_name,new_name);
 end
 end
